@@ -85,6 +85,13 @@ body{
             line-height: 34px;
             color: #BD00FF;
             cursor: pointer;
+            transition: .4s;
+        }
+
+        .sum:hover{
+            background-color: #BD00FF;
+            color: #D9D9D9;
+            transform: scale(1.1);
         }
         .answer{
             width: 364px;
