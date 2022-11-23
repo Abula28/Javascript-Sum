@@ -11,6 +11,5 @@ sumBtn.addEventListener('click', function(){
         answerDiv.textContent = '0'
     }else if (firstInp.value == '' || secondInp.value == ''){
         answerDiv.textContent = "Fill All Number"
-        answerDiv.textContent.style.color = 'red'
     }
 })
