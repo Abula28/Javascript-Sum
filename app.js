@@ -42,20 +42,20 @@ answerDiv.textContent = `${answer}`
 
 moves.plus.addEventListener('click', function(){
     moves.plus.style.display = "none";
-    moves.minus.style.display = "flex"
+    moves.minus.style.display = "flex";
 })
 
 moves.minus.addEventListener('click', function(){
-    moves.minus.style.display = "none"
-    moves.gamravleba.style.display = "flex"
+    moves.minus.style.display = "none";
+    moves.gamravleba.style.display = "flex";
 })
 
 moves.gamravleba.addEventListener('click', function(){
-    moves.gamravleba.style.display = "none"
-    moves.gayofa.style.display = "flex"
+    moves.gamravleba.style.display = "none";
+    moves.gayofa.style.display = "flex";
 })
 
 moves.gayofa.addEventListener('click', function(){
-    moves.gayofa.style.display = "none"
-    moves.plus.style.display = "flex"
+    moves.gayofa.style.display = "none";
+    moves.plus.style.display = "flex";
 })
