@@ -63,9 +63,12 @@ body{
         
         p{
             margin: 28px 0px;
+            padding: 5px 25px;
+            border: 2px solid #BD00FF;
             font-size: 35px;
             font-weight: bold;
             color: #BD00FF;
+            cursor: pointer;
         }
     }
     .calculate{
